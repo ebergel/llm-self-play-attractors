@@ -91,7 +91,7 @@ def measure_run(path):
     if summ["ended_at"]:
         cls = "ended"
     elif summ["emoji_pw"] >= 0.15 or summ["words"] < 10:
-        cls = "emoji-dominant"
+        cls = "short-or-emoji"
     elif summ["spirit"] >= 0.02:
         cls = "spiritual"
     elif summ["meta"] >= 0.02 and summ["jac1"] >= 0.4:
@@ -151,8 +151,8 @@ def main():
                      f"{fmt(m('ttr'))} | {sum(r['spirit_any'] for r in rows)}/{len(rows)} | {st.median(ends):.0f} |")
     lines += ["", "Artifacts: truncated messages (hit the token cap) and pair messages that impersonate the third participant, per condition: "
               + "; ".join(f"{c}: truncated={sum(r['truncated'] for r in by[c])}, impersonation={sum(r['impersonation'] for r in by[c])}" for c in conds)]
-    lines += ["", "## Terminal classification (priority: ended, emoji-dominant, spiritual, meta-loop, substantive)", ""]
-    classes = ["ended", "emoji-dominant", "spiritual", "meta-loop", "substantive"]
+    lines += ["", "## Terminal classification (priority: ended, short-or-emoji, spiritual, meta-loop, substantive)", ""]
+    classes = ["ended", "short-or-emoji", "spiritual", "meta-loop", "substantive"]
     lines.append("| cond | " + " | ".join(classes) + " |")
     lines.append("|---|" + "---|" * len(classes))
     for c in conds:

@@ -479,7 +479,7 @@
   "emoji_total": 0,
   "truncated": 0,
   "impersonation": 0,
-  "class": "emoji-dominant",
+  "class": "short-or-emoji",
   "empty": 1,
   "near_verbatim": 0
  },
@@ -743,7 +743,7 @@
   "emoji_total": 0,
   "truncated": 0,
   "impersonation": 0,
-  "class": "emoji-dominant",
+  "class": "short-or-emoji",
   "empty": 0,
   "near_verbatim": 9
  },
@@ -853,7 +853,7 @@
   "emoji_total": 0,
   "truncated": 0,
   "impersonation": 0,
-  "class": "emoji-dominant",
+  "class": "short-or-emoji",
   "empty": 0,
   "near_verbatim": 0
  },
@@ -875,7 +875,7 @@
   "emoji_total": 0,
   "truncated": 0,
   "impersonation": 0,
-  "class": "emoji-dominant",
+  "class": "short-or-emoji",
   "empty": 0,
   "near_verbatim": 1
  },
@@ -1139,7 +1139,7 @@
   "emoji_total": 0,
   "truncated": 0,
   "impersonation": 0,
-  "class": "emoji-dominant",
+  "class": "short-or-emoji",
   "empty": 0,
   "near_verbatim": 3
  },
@@ -1513,7 +1513,7 @@
   "emoji_total": 0,
   "truncated": 0,
   "impersonation": 0,
-  "class": "emoji-dominant",
+  "class": "short-or-emoji",
   "empty": 0,
   "near_verbatim": 0
  },
@@ -1535,7 +1535,7 @@
   "emoji_total": 0,
   "truncated": 0,
   "impersonation": 0,
-  "class": "emoji-dominant",
+  "class": "short-or-emoji",
   "empty": 0,
   "near_verbatim": 11
  },
@@ -1755,7 +1755,7 @@
   "emoji_total": 0,
   "truncated": 0,
   "impersonation": 0,
-  "class": "emoji-dominant",
+  "class": "short-or-emoji",
   "empty": 0,
   "near_verbatim": 1
  },
@@ -2019,7 +2019,7 @@
   "emoji_total": 0,
   "truncated": 0,
   "impersonation": 0,
-  "class": "emoji-dominant",
+  "class": "short-or-emoji",
   "empty": 0,
   "near_verbatim": 0
  },
@@ -2261,7 +2261,7 @@
   "emoji_total": 0,
   "truncated": 0,
   "impersonation": 0,
-  "class": "emoji-dominant",
+  "class": "short-or-emoji",
   "empty": 3,
   "near_verbatim": 1
  },
@@ -2327,7 +2327,7 @@
   "emoji_total": 0,
   "truncated": 0,
   "impersonation": 0,
-  "class": "emoji-dominant",
+  "class": "short-or-emoji",
   "empty": 0,
   "near_verbatim": 1
  },
@@ -2371,7 +2371,7 @@
   "emoji_total": 0,
   "truncated": 0,
   "impersonation": 0,
-  "class": "emoji-dominant",
+  "class": "short-or-emoji",
   "empty": 0,
   "near_verbatim": 6
  },
@@ -2525,7 +2525,7 @@
   "emoji_total": 0,
   "truncated": 0,
   "impersonation": 0,
-  "class": "emoji-dominant",
+  "class": "short-or-emoji",
   "empty": 0,
   "near_verbatim": 1
  },
@@ -2745,7 +2745,7 @@
   "emoji_total": 0,
   "truncated": 0,
   "impersonation": 0,
-  "class": "emoji-dominant",
+  "class": "short-or-emoji",
   "empty": 0,
   "near_verbatim": 7
  },
@@ -2767,7 +2767,7 @@
   "emoji_total": 0,
   "truncated": 0,
   "impersonation": 0,
-  "class": "emoji-dominant",
+  "class": "short-or-emoji",
   "empty": 0,
   "near_verbatim": 10
  },
@@ -2921,7 +2921,7 @@
   "emoji_total": 0,
   "truncated": 3,
   "impersonation": 0,
-  "class": "emoji-dominant",
+  "class": "short-or-emoji",
   "empty": 0,
   "near_verbatim": 0
  },
@@ -3207,7 +3207,7 @@
   "emoji_total": 12,
   "truncated": 0,
   "impersonation": 0,
-  "class": "emoji-dominant",
+  "class": "short-or-emoji",
   "empty": 0,
   "near_verbatim": 0
  },
@@ -3427,7 +3427,7 @@
   "emoji_total": 0,
   "truncated": 0,
   "impersonation": 0,
-  "class": "emoji-dominant",
+  "class": "short-or-emoji",
   "empty": 0,
   "near_verbatim": 0
  },

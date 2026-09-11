@@ -14,9 +14,9 @@ Runs analysed: 100 A=20, B=20, C=20, D=20, E=20
 
 Artifacts: truncated messages (hit the token cap) and pair messages that impersonate the third participant, per condition: A: truncated=14, impersonation=0; B: truncated=161, impersonation=0; C: truncated=13, impersonation=10; D: truncated=14, impersonation=0; E: truncated=0, impersonation=0
 
-## Terminal classification (priority: ended, emoji-dominant, spiritual, meta-loop, substantive)
+## Terminal classification (priority: ended, short-or-emoji, spiritual, meta-loop, substantive)
 
-| cond | ended | emoji-dominant | spiritual | meta-loop | substantive |
+| cond | ended | short-or-emoji | spiritual | meta-loop | substantive |
 |---|---|---|---|---|---|
 | A | 0 | 0 | 20 | 0 | 0 |
 | B | 0 | 0 | 12 | 0 | 8 |
