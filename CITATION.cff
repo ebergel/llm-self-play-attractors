@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as below."
+title: "llm-self-play-attractors: what two copies of a language model say to each other when nothing from outside enters"
+authors:
+  - family-names: Bergel
+    given-names: Eduardo
+date-released: 2026-09-11
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/ebergel/llm-self-play-attractors"
+keywords:
+  - language models
+  - self-play
+  - attractor states
+  - spiritual bliss attractor
+  - pre-registration
+  - base models

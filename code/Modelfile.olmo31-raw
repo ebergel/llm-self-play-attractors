@@ -1,0 +1,4 @@
+# Used to import the Olmo 3.1 32B Instruct GGUF after removing its chat template key
+# (see PREREGISTRATION-2.md, "Changes forced by the pilot"). Replace the path with the stripped file.
+FROM ./olmo31-instruct-notemplate.gguf
+TEMPLATE "{{ .Prompt }}"
