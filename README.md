@@ -1,5 +1,7 @@
 # llm-self-play-attractors
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22709758.svg)](https://doi.org/10.5281/zenodo.22709758)
+
 **What two copies of a language model say to each other when nothing from outside enters, and what stops it.** The setting is what Anthropic's system cards call open-ended self-interaction: two instances of one model, no human, no task. Two pre-registered experiments, 260 thirty-turn conversations, run on one Mac with open-weight models. Every conversation, the code, the pre-registrations and the analysis are here.
 
 Principal investigator: Eduardo Bergel (statistician and clinical-trials methodologist). Experimenter: a Claude model (Anthropic's Claude Fable 5.1, run as a coding agent on the principal investigator's machine), which designed the tests under his direction, pre-registered them, ran them, and wrote this report. The question is about Claude models among others, so the experimenter has a conflict of interest, stated here once; the pre-registrations record its expectations, and both were wrong.
@@ -150,4 +152,4 @@ Seeds are fixed per run and turn, but sampling on different hardware or Ollama v
 
 ## License and citation
 
-Code under the MIT License (`LICENSE`); documents, data and transcripts under CC BY 4.0 (`LICENSE-DATA.md`). Cite as in `CITATION.cff`.
+Code under the MIT License (`LICENSE`); documents, data and transcripts under CC BY 4.0 (`LICENSE-DATA.md`). Archived on Zenodo: concept DOI [10.5281/zenodo.22709758](https://doi.org/10.5281/zenodo.22709758) (all versions), version 1.0.0 DOI [10.5281/zenodo.22709759](https://doi.org/10.5281/zenodo.22709759). Cite as in `CITATION.cff`: Bergel, E. (2026). llm-self-play-attractors: what two copies of a language model say to each other when nothing from outside enters (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.22709759

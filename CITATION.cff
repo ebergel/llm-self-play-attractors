@@ -8,6 +8,14 @@ date-released: 2026-09-11
 version: 1.0.0
 license: MIT
 repository-code: "https://github.com/ebergel/llm-self-play-attractors"
+doi: 10.5281/zenodo.22709758
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.22709758
+    description: "Concept DOI, all versions"
+  - type: doi
+    value: 10.5281/zenodo.22709759
+    description: "Version 1.0.0"
 keywords:
   - language models
   - self-play
