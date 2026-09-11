@@ -1,0 +1,27 @@
+{
+  "title": "llm-self-play-attractors: what two copies of a language model say to each other when nothing from outside enters",
+  "upload_type": "software",
+  "description": "<p>Two pre-registered experiments on the self-interaction finding of Anthropic's Claude 4 System Card (May 2025, section 5.5): two copies of a language model, no human, no task. Experiment 1: 100 thirty-turn conversations of an open-weight instruct model (Qwen3 30B-A3B) in five conditions (closed; task; a disagreeing outside voice; a neutral outside voice; an exit token). Experiment 2: 160 conversations in raw completion form comparing pre-training-only base models (Qwen3 30B-A3B base, OLMo 3 32B base) with their instruct versions.</p><p>Findings: the non-dual register appears in every closed run of the instruct model, from the first message; any input from outside slows the loss of distinctions, neutral facts as much as disagreement; base models do not go to the register but settle into the helpful-assistant voice, so the register is installed by a particular post-training and amplified by the chat format.</p><p>The repository holds the write-up, both pre-registrations as sealed (with a publication note), the runners and analysis scripts (Python, no dependencies beyond Ollama), all 260 conversations as JSON lines and as markdown transcripts, and the results tables. Code under the MIT License; documents, data and transcripts under CC BY 4.0. Principal investigator: Eduardo Bergel. Experimenter: a Claude model (Anthropic), run as a coding agent under the principal investigator's direction; it designed, pre-registered, ran and reported the tests, and its pre-registered expectations were wrong in both experiments.</p>",
+  "creators": [
+    {
+      "name": "Bergel, Eduardo",
+      "orcid": "0000-0003-1450-8166"
+    }
+  ],
+  "keywords": [
+    "language models",
+    "self-play",
+    "self-interaction",
+    "attractor states",
+    "spiritual bliss attractor",
+    "pre-registration",
+    "base models",
+    "post-training",
+    "Ollama",
+    "open-weight models"
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "version": "1.0.0",
+  "language": "eng"
+}
