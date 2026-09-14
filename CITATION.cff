@@ -19,6 +19,9 @@ identifiers:
   - type: doi
     value: 10.5281/zenodo.22710851
     description: "Version 1.0.1"
+  - type: doi
+    value: 10.5281/zenodo.22710852
+    description: "Version 1.1.0"
 keywords:
   - language models
   - self-play
